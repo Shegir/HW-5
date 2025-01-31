@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector,weight</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <p>Застосовується до тегів p, вага 1</p>
+   
+   <p class="w-class">Застосовується до тегів з класом my-class, вага 10</p>
+   
+   <p id="w-id">Застосовується до тегів з id my-id, вага 100</p>
+   
+   <p data-attribute="value">Застосовується до тегів з атрибутом data-attribute, вага 10</p>
+   
+   <div>
+       <p>Застосовується до тегів p, вкладених у div, вага 2</p>
+   </div>
+
+   <div>
+       <span>Застосовується до тегів span, вкладених у div на першому рівні, вага 2</span>
+   </div>
+
+   <h1>Заголовок Version 0.1</h1>
+   <p>Застосовується до тегів p, що йдуть після h1, вага 2</p>
+
+   <div class="container">
+    <p id="combi" data-attribute="value">Застосовується до тегів p з id combi, класом container та атрибутом data-attribute="value", вкладених у div, вага 113</p>
+   </div> 
+</body>
+</html>
